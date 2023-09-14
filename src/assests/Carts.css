@@ -1,0 +1,25 @@
+.btn_remove {
+    margin-right: 8px;
+  }
+  .btn_add{
+      margin-left: 8px;
+  }
+  @media screen and (max-width: 768px) {
+    .btn_remove {
+      margin-right: 0;
+    }
+    .btn_add{
+      margin-left: 0;
+      
+  }
+  .product_info{
+    text-align: center;
+  }
+  .quantity{
+    display: flex;
+    justify-content: center;
+  }
+  .cart_title{
+      display: none;
+  }
+  }
