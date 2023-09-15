@@ -11,11 +11,11 @@ import axios from 'axios'
 
 function CardSlider({title}) {
   const [slider, setSlider] = useState(null);
-  const [cardsData, setCardsData] = useState(CardsData);
+  const [cardsData, setCardsData] = useState([]);
 
   const settings = {
-    dots: false,
-    infinite: true,
+    dots: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,

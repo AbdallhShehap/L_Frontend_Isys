@@ -44,6 +44,11 @@ body{
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+.slick-track{
+  width: 322px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
 .more_info_btn{
   border-color: #27579A;
   color: #27579A;
